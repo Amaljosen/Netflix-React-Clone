@@ -1,0 +1,190 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: black;
+  width: 100vw;
+}
+.bg{
+  height: 100vh;
+  width: 100vw;
+}
+.logo{
+  width: 200px;
+}
+button{
+  cursor: pointer;
+}
+
+                      /* *****************    Login   ***************** */
+
+
+.Login{
+  position: relative;
+  overflow: hidden;
+}
+.Content{
+  position: absolute;
+  width: 100wh;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.451);
+  
+}
+.nav{
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.signB{
+  background-color: red;
+  color: white;
+  padding: 0 17px 0 17px;
+  height: 40px;
+  border-style:none;
+  border-radius: 7px;
+  font-size:large;
+  font-weight: bolder;
+ 
+}
+.center-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.684);
+  padding: 20px 70px 20px 70px;
+  
+}
+.eIn ,.pIn{
+  padding: 10px;
+  border-style: none;
+  
+}
+input:focus{
+  outline:none;
+  
+}
+.logB{
+  padding: 10px;
+  background-color: red;
+  border-style: none;
+  color: white;
+  font-size:large;
+  font-weight: bolder;
+  border-radius: 3px;
+}
+.error{
+  color: red;
+}
+
+
+                      /* *****************    Signup  ***************** */
+  
+.Signup{
+  position: relative;
+  overflow: hidden;
+}
+.sign-center-div{
+  display: flex;
+  justify-content: center;
+}
+.sign-center{
+  padding: 10px;
+  text-align: center;
+  width: 700px;
+  color: white;
+}
+.h1{
+  font-size: 60px;
+  margin: 10px;
+}
+.p{
+  font-size: 13px;
+  margin-top: 15px;
+}
+.sign-eIn ,.sign-pIn{
+  padding: 10px;
+  border-style: none;
+  margin: 2px;
+  height: 30px;
+  width: 320px;
+  
+}
+.signBut{
+  background-color: red;
+  color: white;
+  padding: 0 17px 0 17px;
+  height: 40px;
+  border-style:none;
+  border-radius: 7px;
+  font-size:large;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+@media (max-width: 767px) {
+  .signB{
+    padding: 0 15px 0 15px;
+    height: 30px;
+    border-radius: 4px;
+    font-size:smaller;
+   
+  }
+  .h1{
+    font-size: 42px;
+  }
+  .h3{
+    font-size: 15px;
+  }
+  .signBut{
+    padding: 0 15px 0 15px;
+    height: 35px;
+    border-radius: 5px;
+    font-size:smaller;
+    font-weight: bolder;
+    margin: 10px;
+  }
+  .logB{
+    font-size:smaller;
+
+  }
+ 
+
+}
+@media screen and (max-width: 600px){
+  
+}
+
+/* Add this to your CSS */
+
+/* @media screen and (max-width: 600px) {
+  .h1{
+    font-size: 40px;
+  }
+  .nav{
+    padding: 10px 10px 60px 10px;
+  }
+  .system{
+    display: none;
+  }
+ 
+}
+@media screen and (min-width: 600px){
+  .mobile{
+    display: none;
+  }
+} */
