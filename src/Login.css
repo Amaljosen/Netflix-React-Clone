@@ -35,7 +35,7 @@ button{
   
 }
 .nav{
-  padding: 50px;
+  padding: 50px 50px 0px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,10 +55,14 @@ button{
 .center-div{
   display: flex;
   justify-content: center;
+ 
 }
 @media screen and (min-width: 13in) {
   .center-div{
     margin-top: 5%;
+  }
+  .nav{
+    padding: 50px;
   }
 
   }
