@@ -55,8 +55,14 @@ button{
 .center-div{
   display: flex;
   justify-content: center;
-  margin-top: 8%;
 }
+@media screen and (min-width: 13in) {
+  .center-div{
+    margin-top: 5%;
+  }
+
+  }
+
 .center{
   display: flex;
   flex-direction: column;
@@ -166,8 +172,6 @@ input:focus{
     padding: 20px 10px 20px 10px;
   }
   .center-div{
-    display: flex;
-    justify-content: center;
     margin-top: 25%;
   }
   .sign-center{

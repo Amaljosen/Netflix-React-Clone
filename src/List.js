@@ -26,6 +26,10 @@ export default function List() {
        <div className='list-div'>
       <ListItem1/>
       </div>
+      <h2 className='title'>Recommended for You</h2>
+       <div className='list-div'>
+      <ListItem2/>
+      </div>
     </div>
   )
 }

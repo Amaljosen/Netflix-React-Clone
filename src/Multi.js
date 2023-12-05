@@ -25,8 +25,9 @@ export default function Multi({e}) {
 
       {isHovered ? 
       (<img src={e.image} alt="card" className='img-list'/>): 
-      (<video src={video} autoPlay loop muted className='img-list'></video>
+      (<video src={video} autoPlay loop muted className='vid-list'></video>
     )}
+    
     <img src={play} alt='play' className='i'/>
     <img src={add} alt='add' className='i'/>
     <img src={like} alt='like' className='i'/>
@@ -36,7 +37,6 @@ export default function Multi({e}) {
     <span className='span'>{e.hours}</span><span className='hd'>HD</span>
     </div>
     <ul className='ul'><li>{e.content}</li></ul>
-
 
     </div>
     
