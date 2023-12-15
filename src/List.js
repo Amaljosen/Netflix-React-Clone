@@ -1,6 +1,7 @@
 import React from 'react'
 import ListItem1 from './ListItem1'
 import ListItem2 from './ListItem2'
+import ListItem3 from './ListItem3'
 
 
 export default function List() {
@@ -16,19 +17,19 @@ export default function List() {
       </div>
       <h2 className='title'>Trending Now</h2>
        <div className='list-div'>
-      <ListItem1/>
+      <ListItem3/>
       </div>
       <h2 className='title'>Movie and Tv Shows</h2>
       <div className='list-div'>
-      <ListItem2/>
+      <ListItem1/>
       </div>
       <h2 className='title'>Action and Adventure Movies</h2>
        <div className='list-div'>
-      <ListItem1/>
+      <ListItem2/>
       </div>
       <h2 className='title'>Recommended for You</h2>
        <div className='list-div'>
-      <ListItem2/>
+      <ListItem3/>
       </div>
     </div>
   )

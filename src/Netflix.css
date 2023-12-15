@@ -1,4 +1,8 @@
 
+button, a, [role="button"] {
+    -webkit-tap-highlight-color: transparent;
+  }
+ 
 .navbar{
     position: fixed;
     top:0px;
@@ -9,6 +13,7 @@
     transition-duration: 500ms;
     
 }
+
 
 .logo{
     width: 150px;

@@ -4,7 +4,7 @@ import logo from './assets/logo.png';
 import profile from './assets/profile.png';
 import search from './assets/search.png';
 import bell from './assets/bell.png';
-import video from './assets/str.mp4';
+// import video from './assets/str.mp4';
 import strLogo from './assets/strLogo.png';
 import play from './assets/play.png';
 import info from './assets/info.png';
@@ -32,7 +32,7 @@ const Netflix = () => {
   return (
     <div>
       <div className='vid'>
-        <video src={video} autoPlay loop className='nav-video' />
+        <video autoPlay loop src='https://ik.imagekit.io/cahviymls/Netflix/str.mp4?updatedAt=1702617328401' type="video/mp4" className='nav-video' />
       </div>
       <nav className={`navbar ${scrolling ? 'scroll' : ''}`}>
         <ul className='ul-left'>

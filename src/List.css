@@ -3,7 +3,12 @@ body,html{
     margin: 0;
     color: white;
     overflow-x: hidden;
+    
 }
+button, a, [role="button"] {
+    -webkit-tap-highlight-color: transparent;
+  }
+ 
 .list-head{
     display: flex;
     width: max-content;
@@ -113,7 +118,7 @@ h2{
         font-weight: 300;
     }
     .titlee{
-        margin-top: 0px;
+        margin-top: 30px;
         font-size: 15px;
         font-weight: 300;
     }
@@ -121,10 +126,10 @@ h2{
         overflow:hidden;
         margin-right:10px;
     }
+  
     .list:hover{
-        width: 245px;
-        height:225px;
-        
+        width: 205px;
+        height:190px;
     }
 
 
@@ -137,24 +142,24 @@ h2{
     margin: 3px;
 }
 .red{
-    font-size: smaller;
+    font-size:x-small;
     margin-right: 5px;
     margin-left: 8px;
 }
 .box{
     margin-right: 3px;
-    font-size: smaller;
+    font-size: x-small;
 }
 .hd{
-    font-size: smaller;
+    font-size:x-small;
 }
 .span{
     margin-right: 3px;
-    font-size: smaller;
+    font-size: x-small;
 }
 .ul{
-    margin: 10px;
-    font-size:smaller
+    margin: 5px;
+    font-size:x-small;
 }
    
     
